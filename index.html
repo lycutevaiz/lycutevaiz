@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY</title>
+    <link rel="stylesheet" href="./money.css"/>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">TIỀN ĂN THÁNG NÀY!!!!</h1>
+        <h2>Hello papa, mama!!</h2>
+        <p>Tình hình là Ly chưa cóa tiền ăn tháng này, Ly sắp chết đói rùi huhu. Papa mama có đồng ý chu cấp tiền ăn tháng này cho LLy khôngggg??? </p>
+    </header>
+    <nav>
+        <ul>
+            <div class="button-container">
+           <button onclick="window.location.href='page2.html'">Có</button>
+           <button onclick="window.location.href='page2.html'">Chắc chắn là có rồi con yêu!!!</button>
+           <button class="move-button" onclick="randomMove()">Không!!!</button>
+
+           <script>
+               function randomMove() {
+                   let btn = document.querySelector(".move-button");
+                   let x = Math.random() * window.innerWidth; 
+                   let y = Math.random() * window.innerHeight; 
+           
+                   btn.style.position = "absolute";
+                   btn.style.left = x + "px";
+                   btn.style.top = y + "px";
+               }
+           </script>
+           
+            </div>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,50 @@
+h1 {
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(36, 3, 3) ;
+}
+body {
+    background-color: rgb(238, 196, 229);
+}
+h2 {
+    font-size: 32px;
+}
+p {
+    font-size: 26px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    gap: 40px; /* Khoảng cách giữa 2 nút */
+}
+
+.button-container button {
+    width: 300px; /* Kích thước bằng nhau */
+    height: 120px; /* Chiều cao cố định */
+    font-size: 22px; /* Cỡ chữ đồng đều */
+}
+.button-container button {
+    width: 200px; /* Kích thước nút */
+    height: 100px;
+    font-size: 22px;
+    background-color: #2d0d48; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: 2px solid #4f1793; /* Viền màu xanh */
+    border-radius: 20px; /* Hình dạng góc bo tròn */
+    cursor: pointer; /* Con trỏ chuột khi di chuột qua nút */
+    transition: all 0.3s ease; /* Hiệu ứng mượt khi thay đổi */
+}
+
+.button-container button:hover {
+    background-color: #27125d; /* Màu nền khi hover */
+    border-color: #27125d; /* Màu viền khi hover */
+}
+
+.button-container button:active {
+    background-color: #450d3f; /* Màu nền khi nhấn */
+    border-color: #450d3f; /* Màu viền khi nhấn */
+}
+h3 {
+    font-size: 48px;
+    color:black;
+}
